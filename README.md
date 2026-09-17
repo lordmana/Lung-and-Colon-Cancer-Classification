@@ -48,6 +48,18 @@ Or install via the official installer:
 curl -LsSf https://astral.sh/uv/install.sh | sh
 ```
 
+On Windows, run the official installer from PowerShell:
+
+```powershell
+irm https://astral.sh/uv/install.ps1 | iex
+```
+
+Alternatively, install `uv` with WinGet:
+
+```powershell
+winget install --id=astral-sh.uv -e
+```
+
 ### 2) Create the environment and install dependencies
 
 From the project root:
